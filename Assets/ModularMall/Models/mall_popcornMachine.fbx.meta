@@ -1,43 +1,113 @@
 fileFormatVersion: 2
 guid: 76c580c98742eff42abe90c44438a2db
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: popcornMachine
-    100004: Text
-    100006: popcornMachine.001
-    100008: popcornMachine_pot
-    100010: popcornMachine_pot.001
-    400000: //RootNode
-    400002: popcornMachine
-    400004: Text
-    400006: popcornMachine.001
-    400008: popcornMachine_pot
-    400010: popcornMachine_pot.001
-    2100000: No Name
-    2100002: mall_glass
-    2100004: mall_metal
-    2100006: mall_glossBlack
-    2100008: mall_trims
-    2100010: mall_popcorn
-    2300000: popcornMachine
-    2300002: Text
-    2300004: //RootNode
-    2300006: popcornMachine.001
-    2300008: popcornMachine_pot
-    2300010: popcornMachine_pot.001
-    3300000: popcornMachine
-    3300002: Text
-    3300004: //RootNode
-    3300006: popcornMachine.001
-    3300008: popcornMachine_pot
-    3300010: popcornMachine_pot.001
-    4300000: Text
-    4300002: popcornMachine
-    4300004: popcornMachine_pot.001
-    4300006: popcornMachine_pot
-    4300008: popcornMachine.001
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: popcornMachine
+  - first:
+      1: 100004
+    second: Text
+  - first:
+      1: 100006
+    second: popcornMachine.001
+  - first:
+      1: 100008
+    second: popcornMachine_pot
+  - first:
+      1: 100010
+    second: popcornMachine_pot.001
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: popcornMachine
+  - first:
+      4: 400004
+    second: Text
+  - first:
+      4: 400006
+    second: popcornMachine.001
+  - first:
+      4: 400008
+    second: popcornMachine_pot
+  - first:
+      4: 400010
+    second: popcornMachine_pot.001
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      21: 2100002
+    second: mall_glass
+  - first:
+      21: 2100004
+    second: mall_metal
+  - first:
+      21: 2100006
+    second: mall_glossBlack
+  - first:
+      21: 2100008
+    second: mall_trims
+  - first:
+      21: 2100010
+    second: mall_popcorn
+  - first:
+      23: 2300000
+    second: popcornMachine
+  - first:
+      23: 2300002
+    second: Text
+  - first:
+      23: 2300004
+    second: //RootNode
+  - first:
+      23: 2300006
+    second: popcornMachine.001
+  - first:
+      23: 2300008
+    second: popcornMachine_pot
+  - first:
+      23: 2300010
+    second: popcornMachine_pot.001
+  - first:
+      33: 3300000
+    second: popcornMachine
+  - first:
+      33: 3300002
+    second: Text
+  - first:
+      33: 3300004
+    second: //RootNode
+  - first:
+      33: 3300006
+    second: popcornMachine.001
+  - first:
+      33: 3300008
+    second: popcornMachine_pot
+  - first:
+      33: 3300010
+    second: popcornMachine_pot.001
+  - first:
+      43: 4300000
+    second: Text
+  - first:
+      43: 4300002
+    second: popcornMachine
+  - first:
+      43: 4300004
+    second: popcornMachine_pot.001
+  - first:
+      43: 4300006
+    second: popcornMachine_pot
+  - first:
+      43: 4300008
+    second: popcornMachine.001
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -57,10 +127,15 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mall_popcorn
+    second: {fileID: 2100000, guid: 2b44d8d5786c9e34e98c20ea568772ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mall_trims
     second: {fileID: 2100000, guid: 4b16f083c3897f74cb6b5096e4895c44, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -69,9 +144,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -92,32 +166,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -127,14 +218,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
