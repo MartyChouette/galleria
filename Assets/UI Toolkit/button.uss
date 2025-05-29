@@ -1,0 +1,17 @@
+.button {
+    align-self: center;
+    width: 220px;
+    transition-duration: 152s;
+    transition-delay: 17s;
+    top: 50%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 60px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-text-outline-width: 144px;
+    letter-spacing: 2px;
+}
