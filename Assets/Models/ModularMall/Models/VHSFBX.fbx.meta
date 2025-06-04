@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VHS
-    second: {fileID: 2100000, guid: 87f797343cd9eaa4f89e122d664717b5, type: 2}
+    second: {fileID: 2100000, guid: 451768bc575044dbf84dc8a0b5ccec3d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
