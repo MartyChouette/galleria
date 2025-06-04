@@ -133,11 +133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.02
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.15
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -584,11 +584,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246918546}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 51f6dd77ef272460a8d96896cb26f0c8, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: fd60b9a38ef31451c9ba14ab1bb06e2f, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 1df4feca081e54a7185563856a17b084, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -598,17 +598,15 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -657,7 +655,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7da3b0e1cdfb74a3aa7c82391c715239, type: 2}
+  - {fileID: 2100000, guid: 228a0031f65fe446eb13cf71cb928593, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -847,15 +845,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.997
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.18
+      value: 1.442
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.444
+      value: 0.554
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1007,6 +1005,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &813468671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
+  m_PrefabInstance: {fileID: 1285024344155999218}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1040230965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1021,15 +1024,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01
+      value: 2.06
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.75
+      value: 3.23
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.444
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1382,11 +1385,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167543500}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: c6c240e00f2d84ee2bb6d7bbb5155c0f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: fd60b9a38ef31451c9ba14ab1bb06e2f, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 44b837eb511e647548d501e3cf88f6fb, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -1396,17 +1399,15 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -1455,7 +1456,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7da3b0e1cdfb74a3aa7c82391c715239, type: 2}
+  - {fileID: 2100000, guid: b5a9394f86c90424e8e8b50ebc75de13, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1499,11 +1500,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.08
+      value: -2.04
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.08
+      value: 3.15
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1909,35 +1910,35 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 543450653108376772}
     m_Modifications:
     - target: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.04
+      value: 0.3337678
       objectReference: {fileID: 0}
     - target: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.58
+      value: 0.87200016
       objectReference: {fileID: 0}
     - target: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.11071491
+      value: 0.057255656
       objectReference: {fileID: 0}
     - target: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.00000009454345
       objectReference: {fileID: 0}
     - target: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.7041917
       objectReference: {fileID: 0}
     - target: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.000000093768776
       objectReference: {fileID: 0}
     - target: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.71001
       objectReference: {fileID: 0}
     - target: {fileID: 2844403360021642383, guid: 1c6d82804384f4955b0de51d4621cd0f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1978,7 +1979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.452
+      value: 3.18
       objectReference: {fileID: 0}
     - target: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2018,6 +2019,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 127892049}
+    - targetCorrespondingSourceObject: {fileID: 3160543371710667239, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 813468671}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39f037d0150684ce1a0d81ec115fcc2b, type: 3}
 --- !u!1660057539 &9223372036854775807
@@ -2027,7 +2031,6 @@ SceneRoots:
   - {fileID: 2060633538}
   - {fileID: 1151081902}
   - {fileID: 790276789}
-  - {fileID: 1285024344155999218}
   - {fileID: 7555437606512899466}
   - {fileID: 1040230965}
   - {fileID: 1333800282}
