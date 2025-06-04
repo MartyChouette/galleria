@@ -1,51 +1,137 @@
 fileFormatVersion: 2
 guid: 4814d37f3c90bad41ae8dde1e8fb337d
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: mall_shoppingCart_basket
-    100004: mall_shoppingCart_basketFrame
-    100006: mall_shoppingCart_frame
-    100008: mall_shoppingCart_col
-    100010: mall_shoppingCart
-    100012: mall_shoppingCart01
-    100014: mall_shoppingCart01_col
-    400000: //RootNode
-    400002: mall_shoppingCart_basket
-    400004: mall_shoppingCart_basketFrame
-    400006: mall_shoppingCart_frame
-    400008: mall_shoppingCart_col
-    400010: mall_shoppingCart
-    400012: mall_shoppingCart01
-    400014: mall_shoppingCart01_col
-    2100000: No Name
-    2100002: mall_metal
-    2100004: mall_red
-    2100006: mall_matteBlack
-    2100008: mall_matteWhite
-    2100010: collider
-    2300000: mall_shoppingCart_basket
-    2300002: mall_shoppingCart_basketFrame
-    2300004: mall_shoppingCart_frame
-    2300006: mall_shoppingCart_col
-    2300008: mall_shoppingCart
-    2300010: mall_shoppingCart01
-    2300012: mall_shoppingCart01_col
-    3300000: mall_shoppingCart_basket
-    3300002: mall_shoppingCart_basketFrame
-    3300004: mall_shoppingCart_frame
-    3300006: mall_shoppingCart_col
-    3300008: mall_shoppingCart
-    3300010: mall_shoppingCart01
-    3300012: mall_shoppingCart01_col
-    4300000: mall_shoppingCart_frame
-    4300002: mall_shoppingCart_basketFrame
-    4300004: mall_shoppingCart_basket
-    4300006: mall_shoppingCart_col
-    4300008: mall_shoppingCart
-    4300010: mall_shoppingCart01_col
-    4300012: mall_shoppingCart01
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: mall_shoppingCart_basket
+  - first:
+      1: 100004
+    second: mall_shoppingCart_basketFrame
+  - first:
+      1: 100006
+    second: mall_shoppingCart_frame
+  - first:
+      1: 100008
+    second: mall_shoppingCart_col
+  - first:
+      1: 100010
+    second: mall_shoppingCart
+  - first:
+      1: 100012
+    second: mall_shoppingCart01
+  - first:
+      1: 100014
+    second: mall_shoppingCart01_col
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: mall_shoppingCart_basket
+  - first:
+      4: 400004
+    second: mall_shoppingCart_basketFrame
+  - first:
+      4: 400006
+    second: mall_shoppingCart_frame
+  - first:
+      4: 400008
+    second: mall_shoppingCart_col
+  - first:
+      4: 400010
+    second: mall_shoppingCart
+  - first:
+      4: 400012
+    second: mall_shoppingCart01
+  - first:
+      4: 400014
+    second: mall_shoppingCart01_col
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      21: 2100002
+    second: mall_metal
+  - first:
+      21: 2100004
+    second: mall_red
+  - first:
+      21: 2100006
+    second: mall_matteBlack
+  - first:
+      21: 2100008
+    second: mall_matteWhite
+  - first:
+      21: 2100010
+    second: collider
+  - first:
+      23: 2300000
+    second: mall_shoppingCart_basket
+  - first:
+      23: 2300002
+    second: mall_shoppingCart_basketFrame
+  - first:
+      23: 2300004
+    second: mall_shoppingCart_frame
+  - first:
+      23: 2300006
+    second: mall_shoppingCart_col
+  - first:
+      23: 2300008
+    second: mall_shoppingCart
+  - first:
+      23: 2300010
+    second: mall_shoppingCart01
+  - first:
+      23: 2300012
+    second: mall_shoppingCart01_col
+  - first:
+      33: 3300000
+    second: mall_shoppingCart_basket
+  - first:
+      33: 3300002
+    second: mall_shoppingCart_basketFrame
+  - first:
+      33: 3300004
+    second: mall_shoppingCart_frame
+  - first:
+      33: 3300006
+    second: mall_shoppingCart_col
+  - first:
+      33: 3300008
+    second: mall_shoppingCart
+  - first:
+      33: 3300010
+    second: mall_shoppingCart01
+  - first:
+      33: 3300012
+    second: mall_shoppingCart01_col
+  - first:
+      43: 4300000
+    second: mall_shoppingCart_frame
+  - first:
+      43: 4300002
+    second: mall_shoppingCart_basketFrame
+  - first:
+      43: 4300004
+    second: mall_shoppingCart_basket
+  - first:
+      43: 4300006
+    second: mall_shoppingCart_col
+  - first:
+      43: 4300008
+    second: mall_shoppingCart
+  - first:
+      43: 4300010
+    second: mall_shoppingCart01_col
+  - first:
+      43: 4300012
+    second: mall_shoppingCart01
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -71,9 +157,9 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mall_red
-    second: {fileID: 2100000, guid: 8f61a9cd01ef08345866290818bda449, type: 2}
+    second: {fileID: 2100000, guid: b7bf36c83c4324650a44d64481729f37, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -82,9 +168,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -105,32 +190,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -140,14 +242,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
