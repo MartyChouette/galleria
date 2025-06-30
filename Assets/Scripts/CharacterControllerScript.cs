@@ -3,10 +3,11 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterControllerScript : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 2.5f;
     public Transform cameraRig;
 
     private CharacterController controller;
+    private Animator animator;
     private Vector3 velocity;
     private float gravity = -9.81f;
     private float verticalVelocity;
@@ -14,6 +15,8 @@ public class CharacterControllerScript : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
+
     }
 
     void Update()
@@ -52,5 +55,9 @@ public class CharacterControllerScript : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(move);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
         }
+
+        // animations
+        float targetSpeed = move.magnitude < 0.1f ? 0f : 0.2f;
+        animator.SetFloat("speed", targetSpeed, 0.1f, Time.deltaTime);
     }
 }
