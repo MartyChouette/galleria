@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterControllerScript : MonoBehaviour
 {
-    public float moveSpeed = 2.5f;
+    public float moveSpeed = .5f;
     public Transform cameraRig;
 
     private CharacterController controller;
